@@ -48,10 +48,10 @@ Additionally, the matrix features a vendor response section that consolidates ke
  
 ![s](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/Project%20Scoping%20Matrix/Matrix%20Assessment%20Image.png)
  
-# RACI Matrix
+# RACI Matrix (Deneb)
 A RACI matrix is a simple but powerful project-management tool used to clarify roles and responsibilities for tasks within a project or process. A RACI matrix is used to clearly define who is responsible for doing the work, who is accountable for final decisions, who must be consulted, and who should be kept informed. It helps reduce confusion, improve communication, and ensure accountability across tasks and teams.
 
-![RACI](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/RACI%20Matrix/Raci%20Matrix%20Image.png)
+![RACI](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/RACI%20Matrix/RACI.png)
  
 # Stakeholder Register
 The stakeholder register summarizes all project stakeholders, outlining their roles, levels of influence, interests, and communication requirements to support effective project engagement and decision-making.
