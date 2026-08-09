@@ -22,48 +22,117 @@ Using these two factors, risks are plotted on a Risk Matrix, which provides a st
  ![Risk Gif](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/Risk%20Matrix/Risk%20Matrix%20Gif.gif)
 
  ![Risk image](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/Risk%20Matrix/Risk%20Dashboard%20Image.png)
- 
+<br><br><br>
 # Project Risk Matrix (Deneb)
 Risk Matrix updated to display very low to very high.
 
-
-
- 
+![RiskVL-VH](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/Risk%20Matrix%20VL-VH/Risk%20Matrix%20VL-VH.png)
+<br><br><br>
 # Business Continuity Risk Matrix (Deneb)
 In a BCP risk matrix, the impact axis is driven by time tolerance, while the likelihood axis reflects disruption probability.
 The key recovery metrics (MTD, RTO, RPO, WRT) define how long the business can withstand disruption before impact becomes unacceptable.
 
+Business Continuity Planning (BCP) focuses on maintaining critical operations during and after disruptions.
+
+#### How It Works
+
+In a BCP risk matrix, time tolerance drives the impact axis, while likelihood reflects disruption probability. This differs from the Project Risk Matrix by focusing on operational resilience rather than project outcomes.
+
+#### Key Recovery Metrics
+
+| Metric | Metric Definition | Typical Values |
+|---|---|---|
+| MTD | Maximum Tolerable Downtime | 1 hour - 72 hours |
+| RTO | Recovery Time Objective | Aligns with MTD |
+| RPO | Recovery Point Objective | 0 - 24 hours |
+| WRT | Wait Time for Recovery | Varies by system |
+
 ![BCP](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/BCP%20Risk%20Matrix/BCP%20Residual%20Risk%20Image.png)
- 
+<br><br><br> 
 # Gantt Chart (Deneb)
-This Gantt chart is a modified version of the visual created by David Bacci - credit goes to him for the original work. I’ve updated it to work with my weekly gantt excel template, added support for extra sections, and made a few small tweaks to color and status categories. 
+This Gantt chart is based on the original visual created by David Bacci, and I appreciate his work. I've customized it to align with my weekly Gantt Excel template, added support for additional sections, and refined the color and status categories to better suit our current needs.
+
+A Gantt chart is a type of bar chart that shows a project's timeline. It displays tasks as horizontal bars along a timeline, making it easy to see when work happens, how long it takes, milestones and how tasks relate to each other.
+
+#### Gantt charts help you and the team:
+
+•	See when tasks start and end
+
+•	Understand task dependencies (what must finish first)
+
+•	Track project progress against the schedule
+
+•	Identify who is working on what
+
+•	Spot delays before they become big problems
 
 ![gantt chart image](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/Gantt%20Chart/Gantt%20Chart%20Image.png)
- 
+<br><br><br> 
 # Project Timeline - Quarterly (Deneb)
 A project timeline provides a visual overview of key events, milestones, and deliverables across the duration of a project. It displays important dates in chronological order – such as the project start, feature releases, major milestones, and final completion – allowing stakeholders to quickly understand the project’s progress and schedule expectations. 
 
  ![T](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/Timeline/Timeline.gif)
- 
+<br><br><br> 
 # Scoping Matrix
-The PBI Matrix provides a structured and consistent framework for evaluating business process requirements across functional areas during system selection initiatives. It translates qualitative inputs – such as functional needs, system capabilities, project risk, and stakeholder alignment – into weighted quantitative scores, enabling objective comparison among solutions.
+ The Power BI Scoping Matrix provides a structured and consistent framework for evaluating business process requirements across functional areas during system selection and vendor evaluation.
+ 
+#### How It Works
 
-The model includes configurable scoring criteria, allowing the evaluation process to be tailored for different projects or scoping exercises. It also incorporates a roles – and-responsibilities section, which is transformed into a RACI matrix within Power BI for improved visibility and accountability.
+The Scoping Matrix translates qualitative inputs into weighted quantitative scores, enabling objective comparison among potential solutions:
+
+| Category |	Example |
+|---|---|
+| Functionality |	User interface must be intuitive |
+| Requirement |	Must support or not purchasing |
+| Want |	Desirable feature or user experience |
+| Wishlist |	Nice to have feature |
+| Project Risk |	Percentage of Failure |
+| Stakeholder Agreement	| Executive buy-in confirmed |
+
+#### Configurable Scoring Criteria
+
+The model includes configurable scoring criteria, allowing the evaluation process to be tailored for different projects or scoping exercises. Simply adjust the weights based on your organization's priorities.
+
+#### Roles and Responsibilities
+
+The matrix incorporates a roles and responsibilities section, which is transformed into a RACI matrix within Power BI for improved visibility and accountability:
+
+#### Vendor Response Tracking
 
 Additionally, the matrix features a vendor response section that consolidates key requirements and questions sent to vendors prior to demonstrations. This area captures vendor feedback and tracks all project-related comments, supporting a transparent and well-documented decision-making process.
  
 ![s](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/Project%20Scoping%20Matrix/Matrix%20Assessment%20Image.png)
- 
+<br><br><br> 
 # RACI Matrix (Deneb)
-A RACI matrix is a simple but powerful project-management tool used to clarify roles and responsibilities for tasks within a project or process. A RACI matrix is used to clearly define who is responsible for doing the work, who is accountable for final decisions, who must be consulted, and who should be kept informed. It helps reduce confusion, improve communication, and ensure accountability across tasks and teams.
+A RACI matrix is a simple but powerful project-management tool used to clarify roles and responsibilities for tasks within a project or process. A RACI matrix is used to clearly define who is responsible for doing the work, who is accountable for final decisions, who must be consulted, and who should be kept informed. It helps reduce confusion, improve communication, and ensure team accountability across tasks.
 
-![RACI](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/RACI%20Matrix/RACI.png)
- 
+![RACI](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/RACI%20Matrix/RACI%20Matrix.png)
+<br><br><br>
+# Responsibility Matrix (Deneb)
+A RAPSI matrix is a responsibility assignment tool used to clearly define who is responsible for producing work, approving decisions, reviewing outputs, supporting execution, and being informed of outcomes. It helps reduce ambiguity, improve accountability, and streamline collaboration across teams.
+
+#### Review
+•	Examines the work for accuracy, completeness, and alignment with requirements; provides feedback or recommended changes.
+
+#### Approve
+•	Has final authority and accountability; formally signs off and authorizes the work to move forward.
+
+#### Produce
+•	Performs the actual work and creates the deliverable.
+
+#### Support
+•	Assists the producer with resources, expertise, or execution help as needed.
+
+#### Inform
+•	Is kept aware of progress, decisions, or outcomes but does not actively participate in the work.
+
+![RASPI](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/Responsibility%20Matrix/Responsibility%20Martix.png)
+<br><br><br> 
 # Stakeholder Register
 The stakeholder register summarizes all project stakeholders, outlining their roles, levels of influence, interests, and communication requirements to support effective project engagement and decision-making.
   
 ![Stake](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/Stakeholder%20Register/Stakeholder%20Register%20Image.png)
- 
+<br><br><br> 
 # List.zip - How Dynamic Excel Worksheets Keep Power BI Reports Reliable
 Excel is often where business data begins. Teams use it to collect project updates, budgets, operational details, and other information that eventually feeds Power BI reports.
 That flexibility is useful - until a column name changes.
@@ -101,9 +170,7 @@ That balance matters. Excel remains flexible for the people closest to the data,
 This approach is particularly useful when Excel is a legitimate business input - not just a temporary workaround.
 By treating the mapping table as a controlled interface, organizations can reduce refresh failures, protect report logic, and make ownership clearer between data contributors and report developers.
 The goal is simple: allow change where it is needed, without allowing small spreadsheet edits to disrupt trusted reporting.
-
-
-
+<br><br><br>
 # Data Dictionary – (bonus!)
 Each report includes a built-in Data Dictionary: a simple reference that explains the report’s measures, fields, tables, and relationships. It helps users understand what the data means, how key metrics are defined, and how to interpret the report with confidence.
 
@@ -111,8 +178,7 @@ The Data Dictionary stays aligned with the Power BI model as it evolves, support
 
 
 ![Data](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/Data%20Dictionary/Data%20Dictionary%20Image.png)
-
-
+<br><br>
 ### 🔑 Keywords & Tags
 **Project Management:**
 #PMOToolkit #ProjectManagementOffice #ProjectManagementTemplates #FreeProjectManagementTemplates #PowerBITemplates #ExcelProjectManagement #OpenSourcePM #ProjectReporting 
