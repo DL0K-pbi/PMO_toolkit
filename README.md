@@ -13,9 +13,9 @@ If you find any of these templates helpful, could you leave review on my [Linked
 Project risk refers to any potential event, condition, or uncertainty that could negatively affect a project's objectives, timeline, resources, or outcomes. 
 Risks are evaluated by examining two key dimensions:
 
-   • Probability – How likely the risk is to occur
+   • Probability – How likely the risk is to occur.
    
-   • Impact – How severe the consequences would be if the risk occurs
+   • Impact – How severe the consequences would be if the risk occurs.
 
 Using these two factors, risks are plotted on a Risk Matrix, which provides a standardized way to categorize risk levels such as Sustainable, Moderate, Severe, and Critical. This helps teams visually identify which risks require immediate attention versus those that can be monitored.
 
@@ -56,15 +56,15 @@ A Gantt chart is a type of bar chart that shows a project's timeline. It display
 
 #### Gantt charts help you and the team:
 
-•	See when tasks start and end
+•	See when tasks start and end.
 
-•	Understand task dependencies (what must finish first)
+•	Understand task dependencies (what must finish first).
 
-•	Track project progress against the schedule
+•	Track project progress against the schedule.
 
-•	Identify who is working on what
+•	Identify who is working on what.
 
-•	Spot delays before they become big problems
+•	Spot delays before they become big problems.
 
 ![gantt chart image](https://github.com/DL0K-pbi/PMO_toolkit/blob/main/Gantt%20Chart/Gantt%20Chart%20Image.png)
 <br><br><br> 
@@ -95,7 +95,7 @@ The model includes configurable scoring criteria, allowing the evaluation proces
 
 #### Roles and Responsibilities
 
-The matrix incorporates a roles and responsibilities section, which is transformed into a RACI matrix within Power BI for improved visibility and accountability:
+The matrix incorporates a roles and responsibilities section, which is transformed into a RACI matrix within Power BI for improved visibility and accountability.
 
 #### Vendor Response Tracking
 
@@ -137,6 +137,7 @@ The stakeholder register summarizes all project stakeholders, outlining their ro
 Excel is often where business data begins. Teams use it to collect project updates, budgets, operational details, and other information that eventually feeds Power BI reports.
 That flexibility is useful - until a column name changes.
 A small adjustment in Excel, such as changing “Owner” to “Document Owner,” can interrupt a Power BI refresh or leave a report without the expected information. The issue is not the new name itself. The issue is that reports depend on consistent structure.
+
 A dynamic worksheet-mapping approach helps solve that problem.
 
 ### A controlled bridge between Excel and Power BI
@@ -155,10 +156,15 @@ For example, if an Excel header changes from “Owner” to “Document Owner,�
 ### Where `List.Zip` fits
 Behind the scenes, Power Query uses `List.Zip` to pair related pieces of information by position. It can pair an Excel source name with a Power BI name, or pair a column with the data type it should receive.
 That capability makes the mapping table dynamic. Rather than rewriting transformation logic each time a supported column change occurs, Power Query reads the mapping table when the report refreshes.
-The result is a more maintainable process:
+
+#### The result is a more maintainable process:
+
 •	Users can make approved changes in Excel.
+
 •	Report developers retain stable model logic.
+
 •	Changes are easier to trace and review.
+
 •	Routine adjustments do not automatically become support tickets.
 
 ### Flexibility still needs guardrails
